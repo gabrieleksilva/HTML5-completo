@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Top 10</title>
+</head>
+<body>
+     <h2>Os top 10 de animais mais inteligentes</h2>
+     <ol type="I">
+        <li>Chimpanzés</li>
+        <li>Porcos</li>
+        <li>Golfinho-nariz-de-garrafa</li>
+        <li>Papagaios</li>
+        <li>Baleias</li>
+        <li>Cães</li>
+        <li>Polvo</li>
+        <li>Elefantes</li>
+        <li>Esquilos</li>
+        <li>Gatos</li>
+     </ol>
+     <p>Para voltar para o Blog</p>
+        <a href="pp.html">Página principal</a>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <h1>Digite as informações do cadastro para apoiar a nossa ONG</h1>
+        <p>Nome</p>
+        <input type="text" name="nome">
+        <p>Idade</p>
+        <input type="number" name="Idade">
+        <p>Data de Nascimento</p>
+        <input type="date" name="data_nascimento">
+        <p>Sexo</p>
+        <label><input type="radio" name="genero" value="M">Masculino</label><br>
+        <label><input type="radio" name="genero" value="F">Feminino</label><br>
+        <p>Preferência de animais</p>
+        <label><input type="checkbox" name="animal[]" value="Mamiferos">Mamíferos</label><br>
+        <label><input type="checkbox" name="animal[]" value="Aves">Aves</label><br>
+        <label><input type="checkbox" name="animal[]" value="Repteis">Répteis</label><br>
+        <label><input type="checkbox" name="animal[]" value="Anfibios">Anfíbios</label><br>
+        <label><input type="checkbox" name="animal[]" value="Peixes">Peixes</label>
+        <p>Sugestões / Reclamações</p>
+        <textarea name="Sugestões_reclamações" rows="10" cols="80"></textarea>
+        <br>
+        <p>Sugestão: envie uma foto do seu animal</p>
+        <input type="file" name="foto" accept=".jpg,.png,.bmp">
+        <br>
+        <button type="reset">Apagar tudo</button>
+        <button>Enviar dados</button>
+    </form>
+    <br>
+    <p>Para voltar para o Blog</p>
+    <a href="pp.html">Página principal</a>
+</body>
+</html>
